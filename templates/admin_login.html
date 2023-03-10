@@ -1,0 +1,22 @@
+<!-- admin_login.html -->
+{% extends 'base.html' %}
+{% block title %}Admin Login{% endblock %}
+
+{% block body %}
+  <h1>Admin Login</h1>
+  <form method="POST" action="{{ url_for('process_admin_login') }}">
+    <div>
+      <label for="login">Username:</label>
+      <input type="text" id="login" name="login" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  <br>
+  <form action="{{ url_for('logout_admin') }}" method="POST">
+    <button type="submit">Logout</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}All Clocks{% endblock %}
+
+{% block body %}
+  <div class="container">
+    <h1 class="text-center">All Clocks</h1>
+    <ul class="list-group">
+      {% for clock_entry in clock_data %}
+      <li class="list-group-item">
+        Date: {{ clock_entry.date.strftime('%Y-%m-%d') }}<br>
+        Time in: {{ clock_entry.time_in.strftime('%I:%M:%S %p') }}{% if clock_entry.time_out %}<br>
+        Time out: {{ clock_entry.time_out.strftime('%I:%M:%S %p') }}{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    <form action="/">
+      <button type="submit" class="btn btn-primary">Logout</button>
+    </form>
+  </div>
+{% endblock %}
