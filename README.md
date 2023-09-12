@@ -54,6 +54,5 @@ Python3 -i model.py
 
 ## Known Issues
 
-1. The student session does not automatically pop after 30 seconds.
-2. Back buttons need to be added to most pages.
-3. The delete feature is flawed: if you delete a student clock from the admin panel before they clock out, it will break their account. I added validation to prevent this from happening, but Deleting clock data then adding more clock data on top of it can mess up the order of the database, which will cause a bad request to bypass the validation, allowing admins to delete a students clock data before a clockout has been submitted breaking their account. 
+1. Back buttons need to be added to most pages.
+2. The delete feature is flawed: if you *delete a student clock from the admin panel before they clock out, it will break their account*. I added validation to prevent this from happening, but Deleting clock data then adding more clock data on top of it can mess up the order of the database, which will cause a bad request to bypass the validation, allowing admins to *delete a students clock data before a clockout has been submitted breaking their account*. 
