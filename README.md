@@ -55,4 +55,4 @@ Python3 -i model.py
 ## Known Issues
 
 1. Back buttons need to be added to most pages.
-2. The delete feature is flawed: if you *delete a student clock from the admin panel before they clock out, it will break their account*. I added validation to prevent this from happening, but Deleting clock data then adding more clock data on top of it can mess up the order of the database, which will cause a bad request to bypass the validation, allowing admins to *delete a students clock data before a clockout has been submitted breaking their account*. 
+2. If you delete a if a student is clocked in and you delete their clock entry before they clockout it will break their account.
