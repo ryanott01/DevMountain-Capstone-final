@@ -6,8 +6,8 @@ This clock in/clock out tracking app is designed for students to easily track th
 
 ## How to create users
 
-1. Run your URI
-2. In terminal, type
+1. Run URI
+2. In terminal:
 
 ```
 Python3 -i model.py
