@@ -6,7 +6,7 @@ This clock in/clock out tracking app is designed for students to easily track th
 
 ## How to create users
 
-1. Run URI
+1. Start Database
 2. In terminal:
 
 ```
