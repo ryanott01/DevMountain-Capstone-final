@@ -2,7 +2,8 @@
 
 Full Stack Python(Flask Framework) web application
 
-Showcasing my growth from the first capstone and everything I have learned at DevMountain. Built in Python (Flask web framework) and all data is stored in a sqlite database.
+Showcasing my growth from the first capstone and everything I have learned at DevMountain. Built in Python (Flask web framework)
+Database: sqlite
 
 ## How to create users
 
