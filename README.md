@@ -1,7 +1,5 @@
 # Ryan Ott's DevMountain Capstone Project - Clock In/Clock Out Tracking App
 
-Full Stack Python(Flask Framework) web application
-
 Showcasing my growth from the first capstone and everything I have learned at DevMountain. Built in Python (Flask web framework)
 Database: sqlite
 
