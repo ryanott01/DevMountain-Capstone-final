@@ -3,6 +3,8 @@
 Showcasing my growth from the first capstone and everything I have learned at DevMountain. Built in Python (Flask web framework)
 Database: sqlite
 
+Primary goal is to have a system students can clock in and clock out with to track their times (for CTE programs)
+
 ## How to create users
 
 1. Start Database
