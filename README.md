@@ -2,7 +2,7 @@
 
 Full Stack Python(Flask Framework) web application
 
-This clock in/clock out tracking app is designed for students to easily track their attendance and for administrators to manage the student clock data. The app is built on flask_sqlalchemy.
+Showcasing my growth from the first capstone and everything I have learned at DevMountain. Built in Python (Flask web framework) and all data is stored in a sqlite database.
 
 ## How to create users
 
